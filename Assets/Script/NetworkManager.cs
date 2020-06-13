@@ -108,7 +108,7 @@ public class NetworkManager : Photon.PunBehaviour
 
     IEnumerator SetPlayer(float time){
     	yield return new WaitForSeconds(time);
-    	player = PhotonNetwork.Instantiate("unitychan", Vector3.up, Quaternion.identity, 0);
+    	player = PhotonNetwork.Instantiate("unitychan2", Vector3.up, Quaternion.identity, 0);
 
     }
 
